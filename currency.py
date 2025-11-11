@@ -1,0 +1,5 @@
+peso = int(input("Enter amount in peso:"))
+soles = int(input("Enter amount in soles:"))
+reais = int(input("Enter amount in reais:"))
+USD = (peso * 0.00027) + (soles * 0.30) + (reais * 0.19)
+print(USD)
